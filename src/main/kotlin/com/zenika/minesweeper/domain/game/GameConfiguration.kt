@@ -1,5 +1,3 @@
 package com.zenika.minesweeper.domain.game
 
-class GameConfiguration {
-
-}
+data class GameConfiguration(val height: Int, val width: Int)
